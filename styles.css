@@ -1,0 +1,56 @@
+html {
+  background-color: #777;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", Courier, monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+#scoreboard {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  display: flex;
+}
+
+.score {
+  display: flex;
+  margin: 32px;
+  gap: 16px;
+}
+
+#controls {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  margin: 32px;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Lucida Console", "Courier New", Courier, monospace;
+}
